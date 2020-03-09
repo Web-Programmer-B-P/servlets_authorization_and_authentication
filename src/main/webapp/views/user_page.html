@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Пользователь</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="../js/user_page.js"></script>
+</head>
+<body style="background-color: #f4f3e9; font-size: 16px">
+<div class="container" style="width: 100%; padding:50px">
+    <h3 style='text-align:center; padding-bottom: 10px'>Пользователь</h3>
+    <table class="table table-bordered">
+        <thead>
+        <tr>
+            <th>Имя</th>
+            <th>Логин</th>
+            <th>Пароль</th>
+            <th>Почта</th>
+            <th>Роль</th>
+            <th>Страна</th>
+            <th>Город</th>
+            <th>Дата создания</th>
+            <th>Фото</th>
+            <th>Скачать фото</th>
+            <th>Обновить</th>
+            <th>Выход</th>
+        </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+    </table>
+</div>
+<div class="container">
+    <div class="modal fade" id="myModal" role="dialog" data-backdrop="static" data-keyboard="false">
+        <div class="modal-dialog">
+            <div class="modal-content" style="background-color: #DFF0D8">
+                <div class="modal-header" style="border-bottom: 1px solid #5CB85C;">
+                    <button type="button" class="close" data-dismiss="modal" title="Закрыть">&times;</button>
+                    <h4 class="modal-title" style="text-align: center">Обновление пользователя</h4>
+                </div>
+                <div class="modal-body">
+                </div>
+                <div class="modal-footer" style="border-top: 1px solid #5CB85C;">
+                    <button type="button" class="btn btn-success btn-block" id="close" data-dismiss="modal">Обновить и
+                        закрыть окно
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
